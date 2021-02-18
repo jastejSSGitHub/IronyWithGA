@@ -1,0 +1,216 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+}
+
+.banner h2 {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 68px;
+  text-align: center;
+
+  color: #336c89;
+}
+
+.carouselContainer {
+  margin-left: 300px;
+  margin-right: 300px;
+  overflow-y: hidden;
+}
+
+.react-multi-carousel-item img {
+  width: 70%;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+.react-multi-carousel-list {
+  padding-top: 30px;
+}
+
+.react-multi-carousel-item img:hover {
+  transform: scale(1.05);
+  overflow-y: hidden;
+}
+
+#noScroll,
+#noScrollFreeFire {
+  overflow-y: hidden;
+}
+
+.button1GA button {
+  width: 89px;
+  height: 36px;
+  filter: drop-shadow(0px 9px 13px rgba(24, 169, 200, 0.46));
+  color: rgb(255, 209, 57);
+  font-family: Avenir Next LT Pro !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  background: #234257;
+  border-radius: 7px;
+  margin-right: 70px;
+  box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  margin-right: 30px;
+  border-style: none;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.button2Free button {
+  width: 89px;
+  height: 36px;
+  filter: drop-shadow(0px 9px 13px rgba(24, 169, 200, 0.46));
+  color: rgb(170, 255, 121);
+  font-family: Avenir Next LT Pro !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  background: #234257;
+  border-radius: 7px;
+  margin-right: 70px;
+  box-shadow: 4px 7px 11px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  border-style: none;
+  margin-bottom: 30px;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+
+.button2Free button:hover {
+  transform: scale(1.05);
+  font-size: 14px;
+  transition: ease-in-out 0.2s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+  background-color: drop-shadow(rgba(8, 100, 121, 0.46));
+  background: #172b38;
+}
+
+.button1GA button:hover {
+  transform: scale(1.05);
+  font-size: 14px;
+  transition: ease-in-out 0.2s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+  background-color: drop-shadow(rgba(2, 56, 68, 0.46));
+  background: #172b38;
+}
+.mainContent {
+  margin: 50px 100px 0 100px;
+}
+
+.carousel img {
+  filter: grayscale(100%);
+}
+.options__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+}
+
+.option__center a:hover {
+  color: black !important;
+}
+
+.option__center {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  margin-top: 50px;
+  height: 1px;
+  width: 80%;
+  border-width: 0;
+  background-color: rgb(196, 196, 196);
+}
+
+.notSelectedFilter {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #666666;
+  padding: 0px 10px 0px 10px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.flexRow img {
+  padding: 0 0px 0 0px;
+  width: 85%;
+  filter: grayscale(100%);
+}
+
+#noScrollFreeFire img {
+  filter: none;
+}
+
+#game1 img {
+  filter: none;
+}
+
+.flexRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.flexRow2 img {
+  padding: 0 0px 0 0px;
+  width: 85%;
+}
+
+.loadmoreButton {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.loadmoreButton button {
+  background-color: #e0e0e0;
+  border-radius: 7px;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  color: #234257;
+  cursor: pointer;
+  filter: drop-shadow(0px 9px 23px rgba(24, 169, 200, 0.46));
+  border-style: none;
+}
+
+.loadmoreButton button:hover {
+  transform: scale(1.05);
+  font-size: 19px;
+  transition: ease-in-out 0.2s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+  background-color: #cecece;
+  filter: drop-shadow(0px 9px 23px rgba(24, 169, 200, 0.46));
+  border-style: none;
+  border-color: #cecece;
+}
+
+.footer {
+  margin-top: 100px;
+}

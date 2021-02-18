@@ -1,0 +1,59 @@
+* {
+  overflow-x: hidden;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+}
+.background img {
+  width: 100vw;
+  bottom: 0;
+}
+.rectangleBackground {
+  background: linear-gradient(180deg, #132733 30%, #234156 65.11%);
+  width: 100vw;
+  height: 300px;
+  z-index: 3;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 13em 0 13em;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 200px;
+}
+.row .heading h1 {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+
+  color: #ffffff;
+}
+.row ul {
+  padding: 0;
+}
+.row ul li {
+  color: #c6c6c6;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.sideImage {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

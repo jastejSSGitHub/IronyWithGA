@@ -1,0 +1,130 @@
+.tournamentCardHover {
+  position: relative;
+}
+.InfoBox {
+  width: 286px;
+  background: #234257;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+.backgroundImage img {
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.InfoBox__top {
+  width: 286px;
+  background: #234257;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+.InfoBox__top {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  z-index: 2;
+}
+.InfoBox__top h1 {
+  /*heading game title*/
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.InfoBox__top h2 {
+  /*start and end date*/
+  font-weight: normal;
+  font-size: 14px;
+  color: #b7b7b7;
+  padding-left: 30px;
+  margin-top: 0;
+}
+
+.InfoBox__bottom {
+  display: flex;
+  flex-direction: row;
+  width: 286px;
+  background: #122029;
+  border-radius: 10px;
+  justify-content: space-between;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  bottom: 0;
+  color: #ffffff;
+  z-index: 3;
+}
+
+.InfoBox__bottom__left {
+  /*number of users*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0px 0 30px;
+}
+
+.InfoBox__bottom__left h2 {
+  font-size: 17px;
+  padding-left: 10px;
+  margin-top: 0;
+  padding-top: 2px;
+}
+
+.InfoBox__bottom__right {
+  /*prize reward*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-right: 30px;
+}
+
+.InfoBox__bottom__right h3 {
+  margin-left: 10px;
+  font-size: 18px;
+  padding-top: 01px;
+}
+
+.InfoBox__bottom__right h4 {
+  font-size: 18px;
+  font-size: 16px;
+  color: rgb(199, 199, 199);
+}
+
+@media screen and (max-width: 1500px) {
+  .InfoBox {
+    width: 326px;
+  }
+
+  .InfoBox__top {
+    width: 326px;
+  }
+  .InfoBox__bottom {
+    width: 326px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .InfoBox {
+    width: 326px;
+  }
+
+  .InfoBox__top {
+    width: 326px;
+  }
+  .InfoBox__bottom {
+    width: 326px;
+  }
+}

@@ -1,0 +1,246 @@
+.bannerDeatilsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin: 0px 5em 0 5em;
+}
+
+.GameBannerImage {
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.topBannerButton {
+  position: absolute;
+  top: auto;
+  cursor: pointer;
+}
+
+.topBannerButton:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.1s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+.bannerHeading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bannerHeading h1 {
+  margin: 0;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 68px;
+  color: #336c89;
+  overflow-y: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.content__top .content__topRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content__BottomRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tag {
+  background: #234257;
+  border-radius: 39px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+}
+.tag h2 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.row__right {
+  display: flex;
+  justify-content: center;
+}
+
+.row__left {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.row__right h3 {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  margin-right: 13px;
+  color: #6e6e6e;
+}
+
+.row__right h2 {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #272727;
+  margin-right: 10px;
+  padding-top: 0.5px;
+}
+.content__buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.content__buttonContainer button {
+  background: #336c89;
+  box-shadow: 0px 11px 24px #2fb8ff;
+  border-radius: 8px;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  padding: 13px 25px;
+  color: #ffffff;
+  border-style: hidden;
+  margin: 20px 0 40px;
+  cursor: pointer;
+}
+
+.content__buttonContainer button:hover {
+  background-color: rgb(0, 47, 68);
+  transform: scale(1.05);
+  transition: ease-in-out 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.content__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 30px 60px;
+
+  margin-bottom: 80px;
+  justify-content: space-between;
+  margin: 0 150px 80px;
+}
+.box {
+  background: #ffffff;
+  box-shadow: 0px 18px 34px rgba(0, 0, 0, 0.45);
+  border-radius: 25px;
+  width: 500px;
+  margin-right: 20px;
+  padding: 30px 50px;
+}
+.box__heading {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  color: #336c89;
+}
+
+.box__sectionContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.box__sectionContentMini {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.box__sectionContentMini h2 {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #234257;
+  margin: 10px 0 0;
+}
+.box__sectionContentMini h3 {
+  color: #131313;
+  margin: 11px 0 0;
+}
+#prize {
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 41px;
+
+  color: #234257;
+}
+.horizontalline hr {
+  width: 100%;
+  height: 1px;
+  background-color: #cfcfcf;
+  margin-bottom: 30px;
+}
+
+#sectionEnd {
+  margin-bottom: 50px;
+}
+.box__heading ul {
+  padding: 0;
+  list-style-type: circle;
+  display: list-item;
+}
+
+.box__heading ul li {
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #234257;
+  list-style-type: square;
+  display: list-item;
+  margin-left: 1em;
+}
+
+/*-----------banner media queries ---------------*/
+
+@media screen and (min-width: 1900px) {
+  /*large screen*/
+  .content__bottom {
+    justify-content: space-between;
+    margin: 0 300px 80px;
+  }
+  .box {
+    padding: 30px 50px;
+  }
+  .banner__left {
+    margin-top: 70px;
+  }
+}

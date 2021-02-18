@@ -1,0 +1,98 @@
+.navContainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_middle {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__left {
+  padding-top: 10px;
+}
+
+.nav__middle {
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+.nav__middle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(234, 247, 255);
+}
+
+.nav__middle a {
+}
+
+.nav__middle a:hover {
+  color: rgb(8, 8, 0) !important;
+  background-color: rgb(241, 248, 255);
+  border-radius: 7px;
+}
+
+.notSelected {
+  float: left;
+  display: block;
+  color: rgb(99, 99, 99, 1) !important;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  font-family: Avenir Next LT Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.selected {
+  color: black !important;
+  font-weight: 600;
+}
+
+.discordImage {
+  width: 40px;
+  height: auto;
+}
+
+.button {
+  width: 108px;
+  height: 42px;
+  color: white;
+  font-family: Avenir Next LT Pro !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  background: #336c89;
+  border-radius: 7px;
+  margin-right: 70px;
+  filter: drop-shadow(0px 9px 10px rgba(24, 169, 200, 0.46));
+  cursor: pointer;
+  border-style: none;
+}
+
+.button:hover {
+  background-color: rgb(0, 47, 68);
+  transform: scale(1.05);
+  transition: ease-in-out 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.nav__right {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
