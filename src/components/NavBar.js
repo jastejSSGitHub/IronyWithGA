@@ -39,9 +39,13 @@ function NavBar() {
                         {/*<Link  to="/">
                             <img class="discordImage" src="https://i.ibb.co/F6n1SwT/image-3.png" alt="navLogo" border="0"/>
                         </Link>*/}
-                        <button class="button" id="SignUpButton"variant="contained" color="primary">
-                            SIGN UP
-                        </button>
+                        <Link id="getStartedLink" to="/Login">
+                            <button class="button" id="SignUpButton"variant="contained" color="primary">
+                                LOGIN IN
+                            </button>
+                        </Link>
+
+                        
                         </div>
 
                     </div>

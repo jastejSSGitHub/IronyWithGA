@@ -11,6 +11,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ScrollToTop from './components/ScrollToTop';
 import TournamnetDetail from './Tournamnets/TournamnetDetail';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import Reset from './components/Reset';
 
 function App() {
   AOS.init({
@@ -23,9 +26,21 @@ function App() {
       
         <ScrollToTop/>
         <Switch>
+            <Route exact path="/Login" component={Login}>
+                <NavBar/>
+                <Login />
+            </Route>
             <Route exact path="/FreeFire" component={FreeFire}>
                 <NavBar/>
                 <FreeFire />
+            </Route>
+            <Route exact path="/signUp" component={SignUp}>
+                <NavBar/>
+                <SignUp />
+            </Route>
+            <Route exact path="/reset" component={Reset}>
+                <NavBar/>
+                <Reset />
             </Route>
             <Route exact path="/tournaments/:tournamentId" component={TournamnetDetail}>
                 <NavBar/>

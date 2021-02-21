@@ -350,6 +350,15 @@
   margin: 20px 40px;
 }
 
+#noScrollend {
+  overflow-y: hidden;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#getStartedLink {
+  overflow-y: hidden;
+}
+
 @media screen and (min-width: 1900px) {
   .playContainer {
     margin: 100px 22em 0 22em;

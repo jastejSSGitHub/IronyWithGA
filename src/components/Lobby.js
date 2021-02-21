@@ -114,11 +114,11 @@ function Lobby() {
                                 <h1>Ready to Play?</h1>
                             </div>
                             <div className="container__rightBottom">
-                                <div data-aos="fade-left" className="buttonCTA">
-                                    <Link to="/tournaments">
-                                        <button>Sign Up Free</button>
+                                    <Link id="getStartedLink" to="/tournaments">
+                                        <div className="buttonCTA">
+                                            <a id="noScrollend" href='#features'><h1>GET STARTED</h1></a>
+                                        </div>
                                     </Link>
-                                </div>
 
                             </div>
                         </div>

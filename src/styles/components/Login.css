@@ -1,0 +1,171 @@
+.login {
+  position: relative;
+  height: 100%;
+  background: url("https://i.ibb.co/NmBd3Hq/background.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.login__gradient {
+  width: 100%;
+  z-index: 1;
+  height: 80vh;
+}
+
+.login__body {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  left: 0;
+  right: 0;
+}
+.mirrorContainer {
+  height: 668px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.07);
+  box-shadow: -47px 63px 100px rgba(0, 0, 0, 0.46);
+  backdrop-filter: blur(121px);
+  border-radius: 20px;
+}
+
+.mirrorContainer__left {
+  display: flex;
+  justify-content: center;
+}
+
+.mirrorContainer__right {
+  max-width: 500px;
+}
+.mirrorContainer__right > form {
+  padding: 80px;
+  padding-left: 30px;
+  margin-right: 80px;
+}
+.mirrorContainer__right > .form__text {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+.form__text h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0;
+}
+.form__text h2 {
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 1px0;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.forgotText {
+  font-weight: 200;
+  font-size: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0;
+}
+.forgotText h2 {
+  margin-top: 0;
+}
+
+.forgotText h2:hover {
+  color: #30a9e6;
+  transform: scale(1.02);
+  transition: ease-in-out 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+form h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #7a7a7a;
+}
+
+.redirect {
+  display: flex;
+  flex-direction: row;
+}
+.redirect h2 {
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  margin-top: 0;
+  margin-right: 7px;
+}
+
+.redirect__signUp h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #00cffd;
+}
+.redirect__signUp h2:hover {
+  color: #56c4fc;
+  font-weight: bold;
+
+  font-size: 15.5px;
+}
+.mirrorContainer__right > form > input {
+  background: #ffffff;
+  border-radius: 30px;
+  border-style: hidden;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 15px;
+}
+
+.mirrorContainer__right > form > button {
+  width: 320px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(91.4deg, #2485b6 0%, #6896ad 100%);
+  box-shadow: 0px 20px 40px rgba(147, 231, 221, 0.3);
+  border-radius: 30px;
+  border-style: hidden;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  cursor: pointer;
+}
+.mirrorContainer__right > form > button:hover {
+  background: linear-gradient(91.4deg, #206588 0%, #3c718b 100%);
+  transform: scale(1.02);
+  transition: ease-in-out 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.imageContainerLogin {
+  background: url("https://i.ibb.co/XZMYnK8/leftBig.png") no-repeat;
+  width: 500px;
+  margin: 50px 0px 0px 50px;
+}
+
+.mirrorContainer__right > form {
+  display: grid;
+  flex-direction: column;
+}

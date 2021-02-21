@@ -1,0 +1,13 @@
+.signUp {
+  position: relative;
+  height: 100%;
+  background: url("https://i.ibb.co/NmBd3Hq/background.png") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.imageContainerSignUp {
+  background: url("https://i.ibb.co/4tBYR9v/Sign-Up-Banner.png") no-repeat;
+  width: 500px;
+  margin: 50px 0px 0px 50px;
+}
